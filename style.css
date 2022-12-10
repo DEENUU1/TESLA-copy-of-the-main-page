@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* NAVIGATION BAR */
 
 .nav {
     display: flex;
@@ -51,9 +52,46 @@ nav a:hover{
     margin-right: 50px;
 }
 
-.section-header {
-    text-align: center;
-    top: 0%;
-    transform: translate(0,-50%);
 
+/* THE END OF NAVIGATION BAR */
+
+
+
+
+/* HERO SECTION 1 */
+
+.hero1 {
+    background-image: url('ModelY.jfif');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
+
+.hero2 {
+    background-image: url('Model3.jfif');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hero3 {
+    background-image: url('ModelS.jfif');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hero4 {
+    background-image: url('ModelX.jfif');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+
