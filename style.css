@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 /* NAVIGATION BAR */
@@ -28,7 +29,9 @@ nav a{
 }
 
 nav a:hover{
-    color: grey;
+    background-color: #C5E1E5;
+    padding: 5px 15px;
+    cursor: pointer;
 }
 .heading {
     position: absolute;
