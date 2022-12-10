@@ -85,7 +85,7 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll; /*fixed*/
 }
 
 /* END OF THE HERO SECTION 1 */
@@ -100,7 +100,7 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;/*fixed*/
 }
 
 /* END OF THE HERO SECTION 2 */
@@ -115,14 +115,14 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;/*fixed*/
 }
 
 /* END OF THE HERO SECTION 3 */
 
 /* HERO SECTION 4 */
 
-.hero4:last-of-type {
+.hero4 {
     background-image: url('ModelX.jfif');
     height: 100vh;
     display: flex;
@@ -130,7 +130,7 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;/*fixed*/
 }
 
 /* END OF THE HERO SECTION 4 */
@@ -138,6 +138,7 @@ nav a:hover{
 
 /* HERO HEADING */
 .hero-heading{
+    position: relative;
     text-align: center;
     margin-top: 160px;
 
@@ -160,11 +161,42 @@ nav a:hover{
 
 }
 
-.footer-main{
-    display:flex;
-    background-image: inherit;
+
+/* END OF THE HERO HEADING */
+
+
+/* HERO BUTTONS */
+
+
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    bottom: 12%;
+    right: 0;
+    left: 0;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+.button-left {
+    font-size: 15px;
+    background-color: rgba(23, 26, 32, 0.8);
+    padding: 12px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}   
+
+.button-right {
+    font-size: 15px;
+    background-color: rgba(244, 244, 244, 0.65);
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
-.footer-main p {
-    text-align: center;
-}
+
+/* END OF THE HERO BUTTONS */
