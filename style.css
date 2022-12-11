@@ -28,11 +28,14 @@ html {
 
 
 nav {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* position: fixed; */
     top: 0px;
+    background: cover;
+    background-color: transparent;
 }
 
 
@@ -54,6 +57,7 @@ nav {
 }
 
 .sidebar {
+  position: fixed;
   height: 100%; 
   width: 0;
   position: fixed; 
@@ -64,6 +68,9 @@ nav {
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
+  -webkit-box-shadow: 13px 5px 23px 11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 13px 5px 23px 11px rgba(0,0,0,0.75);
+  box-shadow: 13px 5px 23px 11px rgba(0,0,0,0.75);
 }
 
 .sidebar a {
@@ -87,7 +94,7 @@ nav {
 }
 
 .openbtn {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0; 
   font-size: 20px;
@@ -128,6 +135,7 @@ nav {
 
 
 .hero1 {
+    position: abso;
     background-image: url('ModelY.jfif');
     height: 100vh;
     display: flex;
@@ -250,14 +258,19 @@ nav {
 }
 
 
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+
 /* END OF THE HERO BUTTONS */
 
 
 
 /* FOOTER SECTION */
-
-
-
 
 
 
