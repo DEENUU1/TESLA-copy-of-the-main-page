@@ -52,11 +52,13 @@ nav {
     top: 0;
     bottom: 0;
     left: 0px;
+    margin-top: 10px;
     padding: 12px 50px;
     max-width: 200%;
 }
 
 .sidebar {
+  z-index: 1;  
   position: fixed;
   height: 100%; 
   width: 0;
@@ -97,14 +99,18 @@ nav {
   position: fixed;
   top: 0;
   right: 0; 
-  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 3px;
+  font-size: 16px;
   cursor: pointer;
   color: black;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border: none;
   overflow: hidden;
   outline: none;
   background-color: transparent;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
 }
 
 
@@ -135,15 +141,15 @@ nav {
 
 
 .hero1 {
-    position: abso;
     background-image: url('ModelY.jfif');
     height: 100vh;
     display: flex;
     justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
-    background-attachment: scroll; /*fixed*/
+    background-position: center;
+    background-attachment: scroll;
+    
     
 }
 
@@ -158,8 +164,8 @@ nav {
     justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
-    background-attachment: scroll;/*fixed*/
+    background-position: center;
+    background-attachment: scroll;
 }
 
 /* END OF THE HERO SECTION 2 */
@@ -273,6 +279,21 @@ nav {
 /* FOOTER SECTION */
 
 
+#footer {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+    line-height: 30px;
+  }
+
+  /* Style the footer links */
+  #footer a {
+    top: 0;
+    color: #fff;
+    text-decoration: none;
+  }
 
 
 
