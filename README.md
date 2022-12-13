@@ -4,7 +4,7 @@ That is my version of 'Tesla' main page. I am not a frontend developer but I wan
 It's not the 1:1 clone but I am still contented.
 
 ## Demo
-https://deenuu1.github.io/TESLA-copy-of-the-main-page/
+https://deenuu1.github.io/Tesla-main-page-with-HTML-CSS-JS/
 
 
 ## Screenshots
