@@ -1,6 +1,6 @@
 
 ## Tesla main page with HTML/CSS/JS
-That is my version of 'Tesla' main page. I am not mainly frontend developer but I wanted to try my best.
+That is my version of 'Tesla' main page. I am not a frontend developer but I wanted to try my best.
 It's not the 1:1 clone but I am still contented.
 
 ## Demo
