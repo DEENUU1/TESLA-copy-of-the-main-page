@@ -1,10 +1,15 @@
 
-## Tesla copy of the main page
-That is my little project.  I made my version of Tesla main website to practice CSS and HTML.
-It's not the same as a original but I scarcely starting with CSS and HTML and that's all I can afford at the moment.
+## Tesla main page with HTML/CSS/JS
+That is my version of 'Tesla' main page. I am not mainly frontend developer but I wanted to try my best.
+It's not the 1:1 clone but I am still contented.
 
-## DEMO
-<gif file here>
+## Demo
+https://deenuu1.github.io/TESLA-copy-of-the-main-page/
+
+
+## Screenshots
+
+![App Screenshot](demo.gif)
 
 ## TECHNOLOGY I USED:
 - HTML
@@ -14,4 +19,9 @@ It's not the same as a original but I scarcely starting with CSS and HTML and th
 ## Check my other projects 
 http://deenuu1.pythonanywhere.com/
 
+
+
+## Authors
+
+- [@DEENUU1](https://www.github.com/DEENUU1)
 
